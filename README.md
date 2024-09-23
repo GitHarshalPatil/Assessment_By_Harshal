@@ -1,10 +1,46 @@
-# Getting Started with Create React App
+## 🔗 Hi, I'm Harshal! 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [@Harshal Patil](https://github.com/GitHarshalPatil)
 
-## Available Scripts
+- 🚀Full Stack Developer.
 
-In the project directory, you can run:
+## Technology Used🧑‍💻
+
+- React
+- MongoDB
+- NodeJS
+- ExpressJS
+- Docker
+- CI/CD
+
+
+## Screenshots😎
+
+<img src="https://github.com/user-attachments/assets/58f2194b-4d10-4165-9ccc-2befa3378c61" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/123a9dbf-146a-4c3d-88f8-cb154954c3f7" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/a990dbc1-288b-48b9-ad78-5a46b1aba810" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/4a715ffd-2e23-4b4d-aba8-bcf3519b0067" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/f11f9603-7e4b-43ea-9fb1-2d6e8fa87fdc" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/6d0bfe70-20e3-4214-b230-597d9baaf5fa" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/fdfa8d4b-48b6-4df6-a8c4-d667fec0435f" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/a5381632-0b04-4ea2-88e9-65c7d07ec929" width="400" height="250px" /> 
+<img src="https://github.com/user-attachments/assets/7ae9a1fe-4a3f-4ffb-8085-d757b78516f2" width="400" height="250px" /> 
+
+
+MERN Application with Docker, Git, and CI/CD Integration
+1] MERN Application Development:
+Developed a full-stack MERN (MongoDB, Express.js, React, Node.js) application with a React frontend and Node.js/Express backend, connecting to a MongoDB database.
+
+2] Docker Setup:
+Used Docker to containerize the application, with separate containers for the frontend (React), backend (Node.js), and MongoDB.
+Docker Compose was configured to manage multi-container environments, and volumes were set up for persistent data storage.
+
+3] Version Control with Git:
+Managed the project using Git for version control. Created a repository, made commits, and pushed the code to GitHub.
+Followed GitFlow/feature branching strategy for clean code collaboration. Resolved merge conflicts using Git commands.
+
+4] CI/CD Integration:
+Implemented a CI/CD pipeline using GitHub Actions to automate testing and deployment. Each push triggered automated tests and Docker image builds, ensuring continuous integration and delivery of the Node.js application.
 
 ### `npm start`
 
