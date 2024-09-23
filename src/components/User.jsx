@@ -22,6 +22,8 @@ function Users() {
         axios.post('http://localhost:4000/users', newUser)
             .then(response => {
                 setUsers([...users, response.data]); // Add new user to state
+
+                console.log("Following is the post req data");
                 console.log(response.data);
                 setNewUser({ name: '', email: '', age: '' }); // Reset form
             })
