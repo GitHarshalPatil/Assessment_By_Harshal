@@ -10,9 +10,11 @@ function Users() {
         axios.get('http://localhost:4000/users')
             .then(response => {
                 setUsers(response.data);
+                console.log(response.data)
             })
             .catch(error => console.log(error));
     }, []);
+
 
     // Handle form submission
     const handleSubmit = (e) => {
