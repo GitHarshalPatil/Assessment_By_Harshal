@@ -30,25 +30,27 @@ function Users() {
 
     return (
         <div>
-            <h1>Users List</h1>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Age</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {users.map(user => (
-                        <tr key={user._id}>
-                            <td>{user.name}</td>
-                            <td>{user.email}</td>
-                            <td>{user.age}</td>
+            <div className="table-responsive container-fluid">
+                <h3>Users List</h3>
+                <table className="table table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Age</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        {users.map(user => (
+                            <tr key={user._id}>
+                                <td>{user.name}</td>
+                                <td>{user.email}</td>
+                                <td>{user.age}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
 
             <h2>Add New User</h2>
             <form onSubmit={handleSubmit}>
@@ -70,7 +72,7 @@ function Users() {
                     value={newUser.age}
                     onChange={(e) => setNewUser({ ...newUser, age: e.target.value })}
                 />
-                <button type="submit">Submit</button>
+                <button type="submit" className='btn btn-primary ms-2'>Submit</button>
             </form>
         </div>
     );
